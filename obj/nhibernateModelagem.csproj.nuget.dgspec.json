@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\nhibernateModelagem\\nhibernateModelagem.csproj": {}
+    "c:\\projetos\\nhibernateModelagem\\nhibernateModelagem.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\nhibernateModelagem\\nhibernateModelagem.csproj": {
+    "c:\\projetos\\nhibernateModelagem\\nhibernateModelagem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\nhibernateModelagem\\nhibernateModelagem.csproj",
+        "projectUniqueName": "c:\\projetos\\nhibernateModelagem\\nhibernateModelagem.csproj",
         "projectName": "nhibernateModelagem",
-        "projectPath": "C:\\projetos\\nhibernateModelagem\\nhibernateModelagem.csproj",
+        "projectPath": "c:\\projetos\\nhibernateModelagem\\nhibernateModelagem.csproj",
         "packagesPath": "C:\\Users\\D2SFe\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\nhibernateModelagem\\obj\\",
+        "outputPath": "c:\\projetos\\nhibernateModelagem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,9 +41,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
             "NHibernate": {
               "target": "Package",
               "version": "[5.2.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
